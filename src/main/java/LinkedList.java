@@ -31,5 +31,13 @@ public static void main(String args[]) {
     LinkedList llist = createList(arr);
     llist.printList();
 }
+	
+		public void printList() {
+			Node n = head;
+			while (n!= null) {
+				System.out.print(n.data + " ");
+				n = n.next;
+			}
+		}
     }
 }
